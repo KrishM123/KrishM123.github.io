@@ -28,7 +28,7 @@ export default function Home() {
          <div className={"text-5xl font-sans font-bold flex flex-grow justify-center text-center text-darkest py-4 px-4"}>Krish Modi</div>
          <div className={"text-darkest text-lg flex flex-grow justify-center text-center px-4"}>1st year Software Engineering student at the University of Waterloo</div>
          <div className={"text-darkest text-lg flex flex-grow justify-center text-center px-4"}>Seeking Summer 2024 Internships</div>
-         <div className={"text-darkest text-lg py-4 flex flex-grow justify-center  text-center px-4"}>Interested in all types of technology expecially the new.</div>
+         <div className={"text-darkest text-lg py-4 flex flex-grow justify-center  text-center px-4"}>Interested in all types of technology especially the new.</div>
          <div className={"my-[10px] justify-center flex flex-grow"}>
           <Link href="https://www.linkedin.com/in/krish-modi/" className={"mx-3"}>
             <Image
