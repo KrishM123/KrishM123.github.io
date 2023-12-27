@@ -35,7 +35,7 @@ export default function Home() {
           <SocialIcon image={"/images/Twitter.png"} link={"https://twitter.com/therealkmodi"} />
           <SocialIcon image={"/images/Devpost.svg"} link={"https://devpost.com/kahnscatterkrish"} />
         </div>
-        <div className={"py-4 px-[100px] max-w grid gap-6 grid-cols-1 sm:grid-cols-2 m-8"}>
+        <div className={"py-4 px-[20px] sm:px-[100px] max-w grid gap-6 grid-cols-1 sm:grid-cols-2 m-8"}>
             <ProjectBox image={"/images/Car.jpeg"} link={"https://github.com/rajansagarwal/self-driving-tank"} title={"Self-Driving Delivery Car"}/>
             <ProjectBox image={"/images/Drivesense.png"} link={"https://devpost.com/software/drive-sense"} title={"DriveSense: HTN 2023 Winner"}/>
             <ProjectBox image={"/images/Cognicare.png"} link={"https://github.com/ishaan1013/cognicare"} title={"CogniCare: MHacks 2023 Winner"}/>
