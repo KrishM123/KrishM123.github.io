@@ -25,7 +25,7 @@ export default function RootLayout() {
             <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-lightest hover:text-light mx-5">
                 Portfolio
             </Link>
-            <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-lightest hover:text-light mx-5">
+            <Link href="https://drive.google.com/file/d/1SweunV1re7QBYPtHxQ1wn4cyfuD5Eswu/view?usp=sharing" class="block mt-4 lg:inline-block lg:mt-0 text-lightest hover:text-light mx-5">
                 Resume
             </Link>
             <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-lightest hover:text-light mx-5">
