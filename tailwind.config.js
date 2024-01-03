@@ -19,7 +19,7 @@ module.exports = {
         'dark': '#006475',
         'medium': '#b3b3b3',
         'light': '#f57d6c',
-        'lightest': '#fefeeb'
+        'lightest': '#f5f5f5'
       }
     },
   },
