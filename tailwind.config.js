@@ -20,7 +20,16 @@ module.exports = {
         'medium': '#b3b3b3',
         'light': '#f57d6c',
         'lightest': '#f5f5f5'
-      }
+      },
+      animation: {
+        blink: 'blink 1s infinite',
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0' },
+        },
+      },
     },
   },
   plugins: [],
