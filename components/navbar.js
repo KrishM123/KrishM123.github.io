@@ -9,7 +9,7 @@ export default function RootLayout() {
     }
     return (
         <nav class="flex items-center justify-between flex-wrap bg-lightest p-3">
-        <Link href="/" className="flex items-center px-11 mx-5 flex-shrink-0 text-darkest font-semibold text-2xl tracking-tight">
+        <Link href="/" className="flex items-center sm:px-11 sm:mx-5 flex-shrink-0 text-darkest font-semibold text-2xl tracking-tight">
             kmodi@Portfolio:~$ <span className="animate-blink">▮</span>
         </Link>
         <div class="block lg:hidden">
