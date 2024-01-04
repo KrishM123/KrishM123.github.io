@@ -29,7 +29,7 @@ export default function Home() {
         <div className={"text-darkest text-lg text-center px-4"}>
           <div>I am currently a first year studying Software Engineering @ The University of Waterloo</div>
           <div>Seeking Summer 2024 Internships</div>
-          <div>I'm interesetd in coming up with new solutions to complex technical problems</div>
+          <div>I'm interested in coming up with new solutions to complex technical problems</div>
         </div>
         <div className={"my-[30px] justify-center flex flex-grow"}>
           <SocialIcon image={"/images/Linkedin.png"} link={"https://www.linkedin.com/in/krish-modi/"} />
@@ -44,8 +44,8 @@ export default function Home() {
             <ul className="list-disc mx-5">
               <li>Invented a patent-pending <a href="https://projectboard.world/isef/project/enbm051-non-invasive-bladder-pressure-measurement-system" className="underline">medical device</a>, winning a gold medal at CWSF and a spot on <a href="https://youthscience.ca/team-canada-isef-2023/" className="underline">Team Canada</a> for ISEF</li>
               <li>Optimized BERT for corpus-specific question-answering before ChatGPT @ <a href="https://github.com/KrishM123/maapa" className="underline">MAAPA</a></li>
-              <li>Created an innovateve stock-prediction algorithm that paper-traded a <span className="font-semibold">5% return in 2 months</span> @ <a href="https://www.linkedin.com/company/wat-street/?originalSubdomain=ca" className="underline">Wat Street</a></li>
-              <li>Won Hack the North with an innovaitve machine-vision based <a href="https://devpost.com/software/drive-sense" className="underline">dashcam app</a></li>
+              <li>Created an innovative stock-prediction algorithm that paper-traded a <span className="font-semibold">5% return in 2 months</span> @ <a href="https://www.linkedin.com/company/wat-street/?originalSubdomain=ca" className="underline">Wat Street</a></li>
+              <li>Won Hack the North with an innovative machine-vision based <a href="https://devpost.com/software/drive-sense" className="underline">dashcam app</a></li>
             </ul>
           </div>
         </div>
