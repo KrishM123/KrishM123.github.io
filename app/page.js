@@ -37,6 +37,7 @@ export default function Home() {
           <SocialIcon image={"/images/Twitter.png"} link={"https://twitter.com/therealkmodi"} />
           <SocialIcon image={"/images/Devpost.svg"} link={"https://devpost.com/kahnscatterkrish"} />
           <SocialIcon image={"/images/Email.svg"} link={"mailto: krish.modi@uwaterloo.ca"} />
+          <SocialIcon image={"/images/Webring.png"} link={"https://se-webring.xyz/"} />
         </div>
         <div className="flex justify-center my-5 pb-[100px]">
           <div className={"flex-shrink text-darkest text-lg px-4 w-[750px]"}>
