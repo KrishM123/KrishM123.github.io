@@ -22,7 +22,7 @@ export default function RootLayout() {
             <Link href="/projects" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ projects ]
             </Link>
-            <Link href="https://drive.google.com/file/d/17mhrgcbRojauSOBY1QIMu6rNhHEA5SO4/view?usp=sharing" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
+            <Link href="https://drive.google.com/file/d/1b-JRie0qxDKQr74od5mJz9lfbBwM8u8O/view?usp=drive_link" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ resume ]
             </Link>
             <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
