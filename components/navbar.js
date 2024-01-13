@@ -19,15 +19,18 @@ export default function RootLayout() {
         </div>
         <div id="navbarLinks" className={`${expandNav? "hidden" : "visible"} w-full sm:flex px-10 lg:items-center lg:w-auto`}>
             <div class="text-lg justify-right">
-            <Link href="/projects" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
+            <Link href="/#research" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
+                [ research ]
+            </Link>
+            <Link href="/#projects" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ projects ]
             </Link>
             <Link href="https://drive.google.com/file/d/1b-JRie0qxDKQr74od5mJz9lfbBwM8u8O/view?usp=drive_link" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ resume ]
             </Link>
-            <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
+            {/* <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ blog ]
-            </Link>
+            </Link> */}
             </div>
         </div>
         </nav>
