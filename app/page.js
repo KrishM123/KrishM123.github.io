@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Layout, {siteTitle} from './layout'
 import NavBar from '../components/navbar'
 import SocialIcon from '../components/socialicon'
+import ProjectBox from '../components/projectbox'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <div className={"max-w font-sans bg-lightest block flex-grow justify-center pt-[80px]"}>
         <div className={"flex flex-grow justify-center"}>
           <Image
-            src="/images/Headshot.jpeg"
+            src="/images/Headshot.png"
             width={300}
             height={300}
             alt="Headshot"
@@ -22,7 +23,7 @@ export default function Home() {
               objectFit: "cover",
               borderRadius:"200px"
             }}
-            className={"shadow-2xl"}
+            className={"shadow-3xl"}
           />
         </div>
         <div className={"text-5xl font-sans font-bold flex flex-grow justify-center text-center text-darkest py-4 px-4"}>Krish Modi</div>
@@ -39,7 +40,7 @@ export default function Home() {
           <SocialIcon image={"/images/Email.svg"} link={"mailto: krish.modi@uwaterloo.ca"} />
           <SocialIcon image={"/images/Webring.png"} link={"https://se-webring.xyz/"} />
         </div>
-        <div className="flex justify-center my-5 pb-[100px]">
+        <div className="flex justify-center my-2 pb-[100px]">
           <div className={"flex-shrink text-darkest text-lg px-4 w-[750px]"}>
             <div>In the past, I've...</div>
             <ul className="list-disc mx-5">
@@ -49,6 +50,24 @@ export default function Home() {
               <li>Won Hack the North with an innovative machine-vision based <a href="https://devpost.com/software/drive-sense" className="underline">dashcam app</a></li>
             </ul>
           </div>
+        </div>
+        <div className="text-5xl font-sans font-bold flex flex-grow justify-center text-center text-darkest pt-10 ">
+        Research
+        </div>
+        <div className={"px-[50px] md:px-[300px] max-w grid gap-6 grid-cols-1 md:grid-cols-3 m-8"}>
+            <ProjectBox image={"/images/No To Photo.png"} link={"https://drive.google.com/file/d/14rQa1GPFtaPWgxOX7aG2ZTQNZ_Qt98tj/view?usp=sharing"} title={"No To Photo: Photo Blocking Pendant"} description={"Gold Medal + Best Junior Physics Project @ CWSF 2019"}/>
+            <ProjectBox image={"/images/POC PT Test.png"} link={"https://drive.google.com/file/d/1-bddRs1d3afIfAdnOOv7y7xKHSWJ5ktX/view?usp=drive_link"} title={"Point of Care Prothrombin Time Test"} description={"Silver Medal @ CWSF 2021"}/>
+            <ProjectBox image={"/images/Pee Xylophone.png"} link={"https://projectboard.world/isef/project/enbm051-non-invasive-bladder-pressure-measurement-system"} title={"Pee Xylophone: A Novel Non-Invasive Bladder Pressure Measurement System"} description={"Gold Medal + Youth Can Innovate Plus @ CWSF 2022; Team Canada ISEF 2023"}/>
+        </div>
+        <div className="text-5xl font-sans font-bold flex flex-grow justify-center text-center text-darkest pt-10 ">
+        Projects
+        </div>
+        <div className={"px-[50px] md:px-[300px] max-w grid gap-6 grid-cols-1 md:grid-cols-3 m-8"}>
+            <ProjectBox image={"/images/Car.jpeg"} link={"https://github.com/rajansagarwal/self-driving-tank"} title={"Self-Driving Delivery Car"}/>
+            <ProjectBox image={"/images/Drivesense.png"} link={"https://devpost.com/software/drive-sense"} title={"DriveSense: Accurate Driver Rating"} description={"Hack the North 2023 Winner"}/>
+            <ProjectBox image={"/images/Cognicare.png"} link={"https://github.com/ishaan1013/cognicare"} title={"CogniCare: Alzhemeirs Prevention and Detection"} description={"MHacks 2023 Winner"}/>
+            <ProjectBox image={"/images/Maapa.png"} link={"https://github.com/KrishM123/maapa"} title={"MAAPA: Smart CTRL+F"}/>
+            <ProjectBox image={"/images/Mean Reversion.png"} link={"https://github.com/KrishM123/Mean-Reversion"} title={"Mean Reversion"}/>
         </div>
       </div>
     </Layout>
