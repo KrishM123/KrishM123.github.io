@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-    font-family: "Techy";
-    src: url("../public/fonts/AstroSpace-eZ2Bg.ttf");
-  }
