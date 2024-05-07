@@ -25,7 +25,7 @@ export default function RootLayout() {
             <Link href="/#projects" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ projects ]
             </Link>
-            <Link href="https://drive.google.com/file/d/1b-JRie0qxDKQr74od5mJz9lfbBwM8u8O/view?usp=drive_link" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
+            <Link href="https://drive.google.com/file/d/1KE3nlY9cLU0BfhwYiIhw6HB3Alb2SCfR/view?usp=sharing" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
                 [ resume ]
             </Link>
             {/* <Link href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-darkest hover:text-light mx-5">
