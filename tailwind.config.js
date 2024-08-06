@@ -33,6 +33,10 @@ module.exports = {
           '50%': { opacity: '0' },
         },
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        merriweather: ['Merriweather', 'serif'],
+      },
     },
   },
   plugins: [],
