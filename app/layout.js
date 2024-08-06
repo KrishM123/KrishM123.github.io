@@ -1,14 +1,11 @@
+'use client';
 import './globals.css'
-
-export const metadata = {
-  title: 'Krish Modi',
-  description: 'kmodi\'s portfolio',
-}
+import { metadata } from './metadata';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
-  )
+  );
 }
