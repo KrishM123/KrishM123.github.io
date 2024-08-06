@@ -45,7 +45,7 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-sans font-bold flex flex-grow justify-center text-center py-4">Krish Modi</h1>
           <div className="text-base sm:text-lg text-center space-y-2">
             <p>I am currently a first year studying Software Engineering @ The University of Waterloo</p>
-            <p>Seeking Summer 2024 Internships</p>
+            <p>Seeking Winter 2025 Internships</p>
             <p>I'm interested in coming up with new solutions to complex technical problems</p>
           </div>
           <div className="my-[30px] justify-center flex flex-wrap gap-4">
