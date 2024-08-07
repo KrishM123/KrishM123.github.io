@@ -25,7 +25,7 @@ export default function NavBar({ darkMode, toggleDarkMode }) {
                     <Link href="/#projects" className={`block mt-4 lg:inline-block lg:mt-0 ${darkMode ? 'text-white hover:text-gray-300' : 'text-darkest hover:text-light'} mx-5`}>
                         [ projects ]
                     </Link>
-                    <Link href="https://drive.google.com/file/d/1KE3nlY9cLU0BfhwYiIhw6HB3Alb2SCfR/view?usp=sharing" className={`block mt-4 lg:inline-block lg:mt-0 ${darkMode ? 'text-white hover:text-gray-300' : 'text-darkest hover:text-light'} mx-5`}>
+                    <Link href="https://drive.google.com/file/d/1kE9BLv6GWTIGxWWH4V8nFmHc4zO6x0bG/view?usp=sharing" className={`block mt-4 lg:inline-block lg:mt-0 ${darkMode ? 'text-white hover:text-gray-300' : 'text-darkest hover:text-light'} mx-5`}>
                         [ resume ]
                     </Link>
                     <button
